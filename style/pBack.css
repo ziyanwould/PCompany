@@ -1,0 +1,307 @@
+.jt2 span,
+.jt3 span,
+.jt2 applet,
+.jt3 applet,
+.jt2 object,
+.jt3 object,
+.jt2 iframe,
+.jt3 iframe,
+.jt2 h1,
+.jt3 h1,
+.jt2 h2,
+.jt3 h2,
+.jt2 h3,
+.jt3 h3,
+.jt2 h4,
+.jt3 h4,
+.jt2 h5,
+.jt3 h5,
+.jt2 h6,
+.jt3 h6,
+.jt2 p,
+.jt3 p,
+.jt2 blockquote,
+.jt3 blockquote,
+.jt2 pre,
+.jt3 pre,
+.jt2 a,
+.jt3 a,
+.jt2 abbr,
+.jt3 abbr,
+.jt2 acronym,
+.jt3 acronym,
+.jt2 address,
+.jt3 address,
+.jt2 big,
+.jt3 big,
+.jt2 cite,
+.jt3 cite,
+.jt2 code,
+.jt3 code,
+.jt2 del,
+.jt3 del,
+.jt2 dfn,
+.jt3 dfn,
+.jt2 em,
+.jt3 em,
+.jt2 img,
+.jt3 img,
+.jt2 ins,
+.jt3 ins,
+.jt2 kbd,
+.jt3 kbd,
+.jt2 q,
+.jt3 q,
+.jt2 s,
+.jt3 s,
+.jt2 samp,
+.jt3 samp,
+.jt2 small,
+.jt3 small,
+.jt2 strike,
+.jt3 strike,
+.jt2 strong,
+.jt3 strong,
+.jt2 sub,
+.jt3 sub,
+.jt2 sup,
+.jt3 sup,
+.jt2 tt,
+.jt3 tt,
+.jt2 var,
+.jt3 var,
+.jt2 b,
+.jt3 b,
+.jt2 u,
+.jt3 u,
+.jt2 i,
+.jt3 i,
+.jt2 center,
+.jt3 center,
+.jt2 dl,
+.jt3 dl,
+.jt2 dt,
+.jt3 dt,
+.jt2 dd,
+.jt3 dd,
+.jt2 ol,
+.jt3 ol,
+.jt2 ul,
+.jt3 ul,
+.jt2 li,
+.jt3 li,
+.jt2 fieldset,
+.jt3 fieldset,
+.jt2 form,
+.jt3 form,
+.jt2 label,
+.jt3 label,
+.jt2 legend,
+.jt3 legend,
+.jt2 table,
+.jt3 table,
+.jt2 caption,
+.jt3 caption,
+.jt2 tbody,
+.jt3 tbody,
+.jt2 tfoot,
+.jt3 tfoot,
+.jt2 thead,
+.jt3 thead,
+.jt2 tr,
+.jt3 tr,
+.jt2 th,
+.jt3 th,
+.jt2 td,
+.jt3 td,
+.jt2 article,
+.jt3 article,
+.jt2 aside,
+.jt3 aside,
+.jt2 canvas,
+.jt3 canvas,
+.jt2 details,
+.jt3 details,
+.jt2 embed,
+.jt3 embed,
+.jt2 figure,
+.jt3 figure,
+.jt2 figcaption,
+.jt3 figcaption,
+.jt2 footer,
+.jt3 footer,
+.jt2 header,
+.jt3 header,
+.jt2 hgroup,
+.jt3 hgroup,
+.jt2 menu,
+.jt3 menu,
+.jt2 nav,
+.jt3 nav,
+.jt2 output,
+.jt3 output,
+.jt2 ruby,
+.jt3 ruby,
+.jt2 section,
+.jt3 section,
+.jt2 summary,
+.jt3 summary,
+.jt2 z time,
+.jt3 z time,
+.jt2 mark,
+.jt3 mark,
+.jt2 audio,
+.jt3 audio,
+.jt2 video,
+.jt3 video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+.padding {
+  margin-top: 150px;
+}
+.padding2 {
+  position: absolute;
+  bottom: 20px;
+  left: 47px;
+}
+.padding3 {
+  margin-top: 20px;
+  margin-right: -6px;
+}
+.jt {
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+.container {
+  position: relative;
+  left: -108px;
+}
+.cropped {
+  position: relative;
+}
+.detail {
+  width: 362px;
+  height: 362px;
+  position: absolute;
+  left: 50%;
+  margin-left: -181px !important;
+  margin-top: -181px !important;
+  background: #fff;
+  top: 50%;
+  border-radius: 5px;
+}
+.detail h3 {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 28px;
+}
+.detail h4 {
+  font-size: 12px;
+  color: #797979;
+  text-align: center;
+  padding-top: 35px;
+}
+.detail h5 {
+  font-size: 12px;
+  color: #ff8800;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.detail h5 em {
+  font-weight: 700;
+  color: #000000;
+}
+.detail section {
+  width: 300px;
+  margin: 0 auto;
+  padding-top: 20px;
+  font-size: 12px;
+}
+.detail section span,
+.detail section input {
+  float: left;
+}
+.detail section span {
+  width: 70px;
+  margin-right: 10px;
+  text-align: right;
+}
+.detail section em,
+.detail section span {
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+}
+.detail section em {
+  color: red;
+}
+.detail section .phone {
+  width: 220px;
+  height: 30px;
+}
+.detail section .yzm {
+  width: 110px;
+  height: 30px;
+  margin-right: 10px;
+}
+.detail section .hqyzm {
+  width: 100px;
+  height: 30px;
+}
+.detail section .btn.comm {
+  margin-top: 20px;
+  width: 138px;
+  height: 38px;
+  margin-left: 10px;
+}
+.color2 {
+  background: rgba(0, 0, 0, 0.7) !important;
+}
+.pBalert {
+  width: 1200px;
+  margin: 0 auto;
+  position: fixed;
+  left: 50%;
+  margin-left: -600px;
+  top: 10px;
+  z-index: 10;
+}
+.pBalert strong {
+  font-weight: 700;
+}
+.title.jlCenter {
+  position: relative;
+}
+.Fq,
+.Fj {
+  width: 72px;
+  height: 22px;
+  border-radius: 3px;
+  line-height: 22px;
+  text-align: center;
+  font-size: 14px;
+  display: inline-block;
+  color: #FFF;
+  font-weight: 400;
+  float: right;
+  position: relative;
+  top: -10px;
+}
+.Fq {
+  background: #2178FB;
+}
+.Fj {
+  background: #FF8021;
+  left: -5px;
+}

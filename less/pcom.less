@@ -1,0 +1,243 @@
+/**个人版样式   */
+
+@import "old.less";
+/*头部样式*/
+@import "header.less";
+
+
+/*内容区*/
+@import "count.less";
+@import "com.less";
+.count{
+    width: 100%;
+    border-top: 20px solid #F8F8F8;
+    padding-bottom: 100px;
+  }
+  .detal{
+      width: 1200px;
+      margin: 0 auto;
+  }
+  .inform{
+      font-size: 12px;
+      font-weight: 500;
+      padding: 20px 0 9px 0;
+      border-bottom: 1px solid #eeeeee;
+    .my{
+       font-weight: 600;
+       font-size: 14px;
+       border-left: 2px solid #7EADD7;
+       padding-left: 10px;
+       padding-right: 23px;
+    }
+    .mes{
+        img{
+            position: relative;
+            top:-2px;
+            padding-right: 10px;
+        }
+        a{
+            color: #1e9bf5;
+        }
+       
+    }
+  }
+
+  .companyIf{
+    padding: 38px 0;
+    border-bottom: 1px solid #eeeeee;
+    .clearfix() ;
+    .co1,.co2,.co3{
+        height: 100px;
+        float: left;
+    }
+    .co1,.co2{
+        border-right: 1px solid #ECECEC;
+    }
+    .co1{
+       
+        width: 550px;
+        .clearfix() ;  
+        .left,.right{
+            float: left;
+        }
+        .left{
+            position: relative;
+            img{
+                .sx();
+                width: 100px;
+                height: 100px;
+                .border-radius(100px) ;
+                margin: 0 20px 0 10px;
+            }
+        }
+        .right{
+            h3{
+                margin-top: 10px;
+                font-size: 22px;
+                font-weight: bold;
+                img{
+                    
+                    
+                    margin-left: 10px;
+                }
+            }
+            .sddress{
+                width:400px ;
+                .text-ellipsis();
+                font-size: 14px;
+                font-weight: 600;
+            }
+            .icon{
+                img {
+                    .sx();
+                    margin-right: 10px;
+                    
+                }
+            }
+        }
+    }
+    .co2{
+        width: 360px;
+        text-align: center;
+        h5{
+            font-size: 14px;
+            font-weight: 600;
+            img{
+                position: relative;
+                left: 3px;
+                top:-10px;
+                .sx()
+            }
+        }
+        .time{
+            margin-top:14px;
+            margin-bottom: 10px;
+            color: #252a2f;
+        }
+    }
+    .co3{
+        width: 290px;
+        text-align: center;
+        h5{
+            font-size: 14px;
+            font-weight: 600;
+            img{
+                position: relative;
+                left: 3px;
+                top:-10px;
+                .sx()
+            }
+        }
+        .bi{
+            margin-top:14px;
+            margin-bottom: 10px;
+            color: #ff002a;
+        }
+    }
+  }
+
+  .opea{
+      margin: 40px 0 70px 0;
+      em{
+          .cl();
+          color: #ff002a;
+      }
+      font-size: 14px;
+      .op1,.op2,.op3{
+          display: inline-block;
+          height: 110px;
+          overflow: hidden;
+          width: 396px;
+          p{
+              padding-left: 110px;
+          }
+      .p1{
+          margin-top: 12px;
+      }
+      .p2{
+          margin-bottom: 16px;
+      }
+      a{
+          margin-right: 20px;
+      }
+      }
+      .op1,.op2{
+       
+         border-right: 1px solid #ECECEC;
+      }
+
+  }
+
+  .llPush{
+    .fr{
+        padding: 40px 0;
+        .title{
+            position: relative;
+            top: 3px;
+             font-size: 20px;
+             font-weight: bold;
+             margin-left: 18px;
+             margin-right: 14px;
+         }
+         .moreLL{
+             margin-left: 8px;
+         }
+      } 
+      .child{
+          width: 1143px;
+          padding: 42px 40px 36px 42px;
+          .box-shadow( 0 0 6px rgba(0, 127, 255, 0.26)) ;
+          margin: 0 auto;
+          font-size: 14px;
+        .clearfix();
+        .left{
+            .clearfix();
+            float: left;
+            >img{
+                margin-right: 20px;
+            }
+            >img,>div{
+                float: left;
+            }
+        }
+        .right{
+            float: right;
+            .time,.click{
+                .clearfix();
+                float: left;
+            }
+            a{
+                margin: 10px 0;
+            }
+            .time{
+                margin-top: 40px;
+                margin-right: 30px;
+            }
+        }
+        .pdetail{
+          h5{
+              font-size: 18px;
+              padding-top: 0px;
+              margin-top: 0px;
+          }
+          .pname{
+              font-size: 16px;
+              color: #268aff;
+          }
+        }
+      }
+     
+  }
+
+  .changeImg{
+      position: absolute;
+      width: 100px;
+      height: 50px!important;
+      bottom: 0;
+      display: none;
+  }
+#img:hover .changeImg{
+    display: block;
+}
+
+
