@@ -597,7 +597,7 @@
   height: 24px;
   line-height: 24px;
   padding-bottom: 18px;
-  border-bottom: 1px dashed #5EA8F8;
+  border-bottom: 1px dashed #2178FB;
   margin-bottom: 18px;
 }
 .m2_t h2 i {
@@ -638,7 +638,7 @@
 }
 .m2_t ul .time:after {
   content: "";
-  background-color: #5EA8F8;
+  background-color: #2178FB;
   display: inline-block;
   width: 10px;
   height: 10px;
@@ -657,7 +657,7 @@
 .m2_t ul .count .counts {
   width: 763px;
   display: block;
-  border-left: 3px solid #5EA8F8;
+  border-left: 3px solid #2178FB;
   padding: 30px 0 35px 60px;
   line-height: 25px;
 }
@@ -728,7 +728,7 @@
   float: right;
 }
 .second {
-  margin: 0 auto;
+  margin: 40px auto 30px auto;
   width: 1150px;
   height: 310px;
   -webkit-box-shadow: 0 0 6px rgba(0, 127, 255, 0.26);
@@ -741,4 +741,183 @@
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
   border-radius: 5px;
+  padding: 0 78px;
+}
+.second .left {
+  float: left;
+}
+.second .left h5 {
+  font-size: 18px;
+  color: #268aff;
+  margin-top: 25px;
+}
+.second .left h6 {
+  font-size: 14px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.second .left h6 span {
+  display: inline-block;
+  margin-right: 20px;
+}
+.second .left .area {
+  font-size: 14px;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+.second .left .an1 {
+  display: inline-block;
+  margin-right: 10px;
+}
+.second .left .an1 .th1 {
+  display: inline-block;
+  line-height: 62px;
+  text-align: center;
+  font-size: 18px;
+  color: #ffffff;
+  width: 233px;
+  height: 62px;
+  cursor: pointer;
+  background: url('/dist/images/back01.png') no-repeat center center;
+}
+.second .left .an1 .th1 img {
+  margin-right: 10px;
+  position: relative;
+  top: -2px;
+}
+.second .left .an1 .th2 {
+  display: inline-block;
+  font-size: 18px;
+  color: #ffffff;
+  width: 233px;
+  height: 62px;
+  cursor: pointer;
+  background: url('/dist/images/back01.png') no-repeat center center;
+}
+.second .left .an1 .th2 > span {
+  display: block;
+  margin-left: 25px;
+}
+.second .left .an1 .th2 .phone {
+  font-size: 16px;
+  position: relative;
+  top: 10px;
+}
+.second .left .an1 .th2 .phone img {
+  position: relative;
+  top: -3px;
+  margin-right: 5px;
+}
+.second .left .an1 .th2 .email {
+  font-size: 14px;
+  position: relative;
+  top: 10px;
+}
+.second .left .an1 .th2 .email img {
+  position: relative;
+  top: -3px;
+  margin-right: 5px;
+}
+.second .left .an2 {
+  display: inline-block;
+  margin-right: 10px;
+  line-height: 62px;
+  text-align: center;
+  font-size: 18px;
+  color: #ffffff;
+  width: 162px;
+  height: 62px;
+  background: url('/dist/images/back02.png') no-repeat center center;
+  cursor: pointer;
+}
+.second .left .an2 img {
+  margin-right: 10px;
+  position: relative;
+  top: -2px;
+}
+.second .left .an3 {
+  display: inline-block;
+  line-height: 62px;
+  text-align: center;
+  font-size: 18px;
+  color: #ffffff;
+  width: 162px;
+  height: 62px;
+  background: url('/dist/images/back03.png') no-repeat center center;
+  cursor: pointer;
+}
+.second .left .an3 img {
+  margin-right: 10px;
+  position: relative;
+  top: -2px;
+}
+.second .right {
+  float: right;
+  margin-top: 55px;
+}
+.third h4 {
+  height: 30px;
+  background: #F5F7F9;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 30px;
+  margin: 30px 0;
+}
+.third h4 span:before {
+  display: inline-block;
+  content: "";
+  width: 5px;
+  height: 16px;
+  background-color: #2178FB;
+  -webkit-border-radius: 2.5px;
+  -moz-border-radius: 2.5px;
+  -ms-border-radius: 2.5px;
+  -o-border-radius: 2.5px;
+  border-radius: 2.5px;
+  margin-left: 5px;
+  margin-right: 10px;
+  position: relative;
+  top: 2px;
+}
+.third .de1 span {
+  display: inline-block;
+  width: 112px;
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.third .title b {
+  color: #007fff;
+  font-size: 12px;
+  cursor: pointer;
+}
+.message {
+  position: fixed;
+  bottom: 50px;
+  right: 5px;
+  font-size: 12px;
+  padding: 8px 15px;
+  -webkit-box-shadow: 0 0 6px rgba(33, 120, 251, 0.6);
+  -moz-box-shadow: 0 0 6px rgba(33, 120, 251, 0.6);
+  -ms-box-shadow: 0 0 6px rgba(33, 120, 251, 0.6);
+  -o-box-shadow: 0 0 6px rgba(33, 120, 251, 0.6);
+  box-shadow: 0 0 6px rgba(33, 120, 251, 0.6);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.pBalert {
+  width: 1200px;
+  margin: 0 auto;
+  position: fixed;
+  left: 50%;
+  margin-left: -600px;
+  top: 10px;
+  z-index: 10;
+}
+.pBalert strong {
+  font-weight: 700;
 }
