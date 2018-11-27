@@ -1,0 +1,539 @@
+.h_first {
+  width: 1200px;
+  margin: 0 auto;
+  height: 85px;
+}
+.f_right {
+  float: right;
+}
+.f_left {
+  margin-top: 20px;
+}
+.f_left span {
+  display: block;
+  font-size: 12px;
+  color: #333;
+  margin-top: 22px;
+  line-height: 25px;
+  margin-left: 12px;
+}
+.f_left img,
+.f_left span {
+  float: left;
+}
+.f_left em {
+  color: #3ebee6;
+  font-style: normal;
+}
+.f_right {
+  margin-top: 21px;
+}
+.f_right .soso {
+  display: inline-block;
+  width: 70px;
+  margin: 0 21px;
+  color: #000;
+  text-align: center;
+  line-height: 37px;
+}
+.f_right img {
+  display: inline-block;
+  margin-left: 97px;
+  position: relative;
+  top: 5px;
+}
+.f_right .lo {
+  color: #333;
+  margin: 0 8px;
+}
+.h_third {
+  width: 1200px;
+  margin: 0 auto;
+}
+.h_third ul {
+  padding-top: 16px;
+  padding-bottom: 34px;
+}
+.h_third li a span {
+  display: block;
+  color: #666666;
+  font-size: 14px;
+  margin-top: 20px;
+  line-height: 22px;
+  margin-right: 37px;
+}
+.h_third li a img,
+.h_third li a span {
+  float: left;
+}
+.f_right .soso:hover {
+  color: red;
+  border-bottom: 1px solid red;
+  transition: all 0.3s ease-in;
+}
+/*头部样式*/
+.h_first .f_right .nav.nav-pills a {
+  font-size: 16px;
+  color: #000000;
+}
+.h_first .f_right .active:hover > a {
+  background: #ffffff;
+  color: #007fff!important;
+}
+.h_first .f_right .actives > a {
+  background: #ffffff!important;
+  color: #007fff!important;
+}
+.h_first .f_right .active > a {
+  background: #ffffff;
+  color: #007fff!important;
+}
+.h_first .f_right .dropdown-menu > li > a {
+  font-size: 14px!important;
+}
+.h_first .f_right .use {
+  min-width: 290px;
+  /* Reset system css */
+  /* HTML5 display-role reset for older browsers */
+  /* from reset */
+  /* aLink reset */
+  text-align: right;
+}
+.h_first .f_right .use div,
+.h_first .f_right .use span,
+.h_first .f_right .use applet,
+.h_first .f_right .use object,
+.h_first .f_right .use iframe,
+.h_first .f_right .use h1,
+.h_first .f_right .use h2,
+.h_first .f_right .use h3,
+.h_first .f_right .use h4,
+.h_first .f_right .use h5,
+.h_first .f_right .use h6,
+.h_first .f_right .use p,
+.h_first .f_right .use blockquote,
+.h_first .f_right .use pre,
+.h_first .f_right .use a,
+.h_first .f_right .use abbr,
+.h_first .f_right .use acronym,
+.h_first .f_right .use address,
+.h_first .f_right .use big,
+.h_first .f_right .use cite,
+.h_first .f_right .use code,
+.h_first .f_right .use del,
+.h_first .f_right .use dfn,
+.h_first .f_right .use em,
+.h_first .f_right .use img,
+.h_first .f_right .use ins,
+.h_first .f_right .use kbd,
+.h_first .f_right .use q,
+.h_first .f_right .use s,
+.h_first .f_right .use samp,
+.h_first .f_right .use small,
+.h_first .f_right .use strike,
+.h_first .f_right .use strong,
+.h_first .f_right .use sub,
+.h_first .f_right .use sup,
+.h_first .f_right .use tt,
+.h_first .f_right .use var,
+.h_first .f_right .use b,
+.h_first .f_right .use u,
+.h_first .f_right .use i,
+.h_first .f_right .use center,
+.h_first .f_right .use dl,
+.h_first .f_right .use dt,
+.h_first .f_right .use dd,
+.h_first .f_right .use ol,
+.h_first .f_right .use ul,
+.h_first .f_right .use li,
+.h_first .f_right .use fieldset,
+.h_first .f_right .use form,
+.h_first .f_right .use label,
+.h_first .f_right .use legend,
+.h_first .f_right .use table,
+.h_first .f_right .use caption,
+.h_first .f_right .use tbody,
+.h_first .f_right .use tfoot,
+.h_first .f_right .use thead,
+.h_first .f_right .use tr,
+.h_first .f_right .use th,
+.h_first .f_right .use td,
+.h_first .f_right .use article,
+.h_first .f_right .use aside,
+.h_first .f_right .use canvas,
+.h_first .f_right .use details,
+.h_first .f_right .use embed,
+.h_first .f_right .use figure,
+.h_first .f_right .use figcaption,
+.h_first .f_right .use footer,
+.h_first .f_right .use header,
+.h_first .f_right .use hgroup,
+.h_first .f_right .use menu,
+.h_first .f_right .use nav,
+.h_first .f_right .use output,
+.h_first .f_right .use ruby,
+.h_first .f_right .use section,
+.h_first .f_right .use summary,
+.h_first .f_right .use time,
+.h_first .f_right .use mark,
+.h_first .f_right .use audio,
+.h_first .f_right .use video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+.h_first .f_right .use article,
+.h_first .f_right .use aside,
+.h_first .f_right .use details,
+.h_first .f_right .use figcaption,
+.h_first .f_right .use figure,
+.h_first .f_right .use footer,
+.h_first .f_right .use header,
+.h_first .f_right .use hgroup,
+.h_first .f_right .use menu,
+.h_first .f_right .use nav,
+.h_first .f_right .use section {
+  display: block;
+}
+.h_first .f_right .use ol,
+.h_first .f_right .use ul {
+  list-style: none;
+}
+.h_first .f_right .use blockquote,
+.h_first .f_right .use q {
+  quotes: none;
+}
+.h_first .f_right .use blockquote:before,
+.h_first .f_right .use blockquote:after,
+.h_first .f_right .use q:before,
+.h_first .f_right .use q:after {
+  content: '';
+  content: none;
+}
+.h_first .f_right .use table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.h_first .f_right .use input::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+.h_first .f_right .use input::-ms-clear {
+  display: none;
+}
+.h_first .f_right .use input,
+.h_first .f_right .use select,
+.h_first .f_right .use label,
+.h_first .f_right .use button {
+  padding: 0;
+  margin: 0;
+  vertical-align: middle;
+  border: none;
+  background: none;
+  font-size: 12px;
+  font-family: 'Microsoft Yahei';
+}
+.h_first .f_right .use input[type="text"],
+.h_first .f_right .use input[type="password"],
+.h_first .f_right .use textarea {
+  outline-style: none;
+  -webkit-appearance: none;
+}
+.h_first .f_right .use textarea {
+  resize: none;
+}
+.h_first .f_right .use input:focus,
+.h_first .f_right .use button:focus,
+.h_first .f_right .use textarea:focus,
+.h_first .f_right .use select:focus {
+  outline: none;
+}
+.h_first .f_right .use a:link,
+.h_first .f_right .use a:visited {
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  color: #333;
+}
+.h_first .f_right .use a:hover,
+.h_first .f_right .use a:active {
+  text-decoration: none;
+  -webkit-transition: color 0.1s linear, background-color 0.1s linear;
+  -moz-transition: color 0.1s linear, background-color 0.1s linear;
+  -o-transition: color 0.1s linear, background-color 0.1s linear;
+  -ms-transition: color 0.1s linear, background-color 0.1s linear;
+  transition: color 0.1s linear, background-color 0.1s linear;
+  cursor: pointer;
+}
+.h_first .f_right .use .touxiang {
+  width: 35px;
+  height: 35px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  -ms-border-radius: 35px;
+  -o-border-radius: 35px;
+  border-radius: 35px;
+}
+.h_first .f_right .use > img {
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  -ms-border-radius: 35px;
+  -o-border-radius: 35px;
+  border-radius: 35px;
+}
+.h_first .f_right .use .mes {
+  padding-top: 40px;
+  position: absolute;
+  width: 290px;
+  z-index: 10;
+  top: 5px;
+}
+.h_first .f_right .use .mes .mess {
+  background: #ffffff;
+  text-align: left;
+  -webkit-box-shadow: 0 0 6px rgba(15, 14, 14, 0.26);
+  -moz-box-shadow: 0 0 6px rgba(15, 14, 14, 0.26);
+  -ms-box-shadow: 0 0 6px rgba(15, 14, 14, 0.26);
+  -o-box-shadow: 0 0 6px rgba(15, 14, 14, 0.26);
+  box-shadow: 0 0 6px rgba(15, 14, 14, 0.26);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+.h_first .f_right .use .cd1 {
+  width: 100%;
+  height: 85px;
+  background: url('/dist/images/iocBack.png') center center;
+}
+.h_first .f_right .use .cd1 ul {
+  *zoom: 1;
+}
+.h_first .f_right .use .cd1 ul:before,
+.h_first .f_right .use .cd1 ul:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  overflow: hidden;
+}
+.h_first .f_right .use .cd1 ul:after {
+  clear: both;
+}
+.h_first .f_right .use .cd1 li {
+  float: left;
+}
+.h_first .f_right .use .cd1 li:nth-of-type(1) {
+  width: 60px;
+  text-align: center;
+  line-height: 85px;
+}
+.h_first .f_right .use .cd1 li:nth-of-type(2) {
+  margin-top: 16px;
+  color: #fefefe;
+}
+.h_first .f_right .use .cd1 li:nth-of-type(2) p:nth-of-type(1) {
+  font-size: 14px;
+}
+.h_first .f_right .use .cd1 li:nth-of-type(2) p:nth-of-type(2) {
+  font-size: 12px;
+}
+.h_first .f_right .use .cd1 li:nth-of-type(3) {
+  float: right;
+  text-align: right;
+  margin-top: 16px;
+  margin-right: 14px;
+}
+.h_first .f_right .use .cd1 li:nth-of-type(3) span {
+  width: 68px;
+  color: #fefefe;
+  height: 18px;
+  line-height: 18px;
+  text-indent: 8px;
+  text-align: center;
+  font-size: 12px;
+  display: inline-block;
+  background: url('/dist/images/vip.png') center center;
+}
+.h_first .f_right .use .cd1 li:nth-of-type(3) p a {
+  display: inline-block;
+  margin-top: 30px;
+  font-size: 12px;
+}
+.h_first .f_right .use .cd2 {
+  padding: 0 11px;
+  border-bottom: 1px solid #E4E8F1;
+  padding-bottom: 8px;
+}
+.h_first .f_right .use .cd2 a {
+  font-size: 12px;
+  font-weight: 500;
+}
+.h_first .f_right .use .cd2 div {
+  display: inline-block;
+  text-align: center;
+}
+.h_first .f_right .use .cd2 div p {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #E4E8F1;
+  margin: 10px 12px;
+}
+.h_first .f_right .use .cd3 {
+  text-align: right;
+  line-height: 30px;
+  padding-right: 15px;
+}
+.h_first .f_right .use .cd3 a {
+  font-size: 12px;
+  font-weight: 500;
+}
+.count {
+  width: 100%;
+  border-top: 20px solid #F8F8F8;
+  padding-bottom: 100px;
+}
+.detal {
+  width: 1200px;
+  margin: 0 auto;
+}
+.inform {
+  font-size: 12px;
+  font-weight: 500;
+  padding: 20px 0 9px 0;
+  border-bottom: 1px solid #eeeeee;
+}
+.inform .my {
+  font-weight: 600;
+  font-size: 14px;
+  border-left: 2px solid #7EADD7;
+  padding-left: 10px;
+  padding-right: 23px;
+}
+.inform .mes img {
+  position: relative;
+  top: -2px;
+  padding-right: 10px;
+}
+.inform .mes a {
+  color: #1e9bf5;
+}
+.detal .input {
+  margin-bottom: 25px;
+  *zoom: 1;
+}
+.detal .input:before,
+.detal .input:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  overflow: hidden;
+}
+.detal .input:after {
+  clear: both;
+}
+.detal .input .left,
+.detal .input .right {
+  float: left;
+}
+.detal .input .left {
+  width: 80px;
+  font-size: 14px;
+  padding-left: 14px;
+  line-height: 34px;
+}
+.detal .input .right {
+  width: 1100px;
+}
+.detal .input input {
+  width: 600px;
+}
+.detal .input textarea {
+  width: 600px;
+}
+.detal .form-control {
+  display: inline-block;
+}
+.detal .nav {
+  padding-top: 40px;
+  border-bottom: 1px solid #ECECEC;
+  margin-bottom: 40px;
+}
+.detal .nav a {
+  display: inline-block;
+  font-size: 14px;
+  padding-bottom: 16px;
+  color: #000;
+  text-decoration: none;
+  margin-right: 16px;
+}
+.detal .nav a.active {
+  border-bottom: 3px solid #268aff;
+  color: #268aff;
+}
+.detal em {
+  display: inline-block;
+  color: red;
+  line-height: 20px;
+  padding-right: 5px;
+}
+.detal .name a {
+  padding-left: 10px;
+}
+.detal .ts1 {
+  color: rgba(0, 0, 0, 0.5);
+}
+.detal .photos {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  width: 262px;
+  height: 157px;
+  position: relative;
+  cursor: pointer;
+}
+.detal .photos .act,
+.detal .photos .act2 {
+  width: 262px;
+  height: 157px;
+}
+.detal .photos .act2 {
+  position: absolute;
+  top: 0;
+  background: rgba(0, 0, 0, 0.5);
+  width: 262px;
+  height: 157px;
+}
+.detal .photos .act2 img {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  margin-left: -36px;
+  margin-top: -32px;
+}
+.detal .photos:hover .act2 {
+  display: block!important;
+}
+.detal .tx {
+  line-height: 28px;
+}
+.detal .tx2 {
+  margin-top: 20px;
+  color: red;
+}
+.detal .btnPull {
+  padding-left: 80px;
+}
+.detal .btnPull button {
+  margin-right: 20px;
+}
+.detal .logo button {
+  width: 177px;
+  margin-right: 10px;
+}
