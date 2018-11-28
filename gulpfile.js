@@ -40,7 +40,7 @@ gulp.task('default',function() {
     browserSync.init({
             server: {
                 baseDir: "./",
-                index  : 'dist/map.html'  // 指定默认打开的文件
+                index  : 'dist/detail.html'  // 指定默认打开的文件
             }
         });
 
@@ -114,8 +114,8 @@ gulp.task('watch-html', function () {
         removeEmptyAttributes        : true,   //删除所有空格做属性的值
         removeScriptTypeAttributes   : true,   //删除<script>的type="text/javascript"
         removeStyleLinkTypeAttributes: true,   //删除<style>和<link>的type="text/css"
-        minifyJS                     : true,   //压缩页面JS
-        minifyCSS                    : true    //压缩页面CSS
+        //minifyJS                     : true,   //压缩页面JS
+       // minifyCSS                    : true    //压缩页面CSS
     };
     return gulp.src('*.html')
         .pipe(htmlmin(options))

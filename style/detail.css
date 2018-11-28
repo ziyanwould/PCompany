@@ -395,6 +395,24 @@
   font-size: 12px;
   font-weight: 500;
 }
+.message {
+  position: fixed;
+  bottom: 50px;
+  right: 5px;
+  font-size: 12px;
+  padding: 8px 15px;
+  -webkit-box-shadow: 0 0 6px rgba(33, 120, 251, 0.6);
+  -moz-box-shadow: 0 0 6px rgba(33, 120, 251, 0.6);
+  -ms-box-shadow: 0 0 6px rgba(33, 120, 251, 0.6);
+  -o-box-shadow: 0 0 6px rgba(33, 120, 251, 0.6);
+  box-shadow: 0 0 6px rgba(33, 120, 251, 0.6);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
 .count {
   width: 100%;
   border-top: 20px solid #F8F8F8;
@@ -408,7 +426,6 @@
   font-size: 12px;
   font-weight: 500;
   padding: 20px 0 9px 0;
-  border-bottom: 1px solid #eeeeee;
 }
 .inform .my {
   font-weight: 600;
@@ -425,119 +442,219 @@
 .inform .mes a {
   color: #1e9bf5;
 }
-.detal .input {
-  margin-bottom: 25px;
+.second {
+  width: 100%;
+  background: #F6F8FB;
+  border: 2px solid #F9F9F9;
+}
+.seconds {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 44px 0 66px 0;
   *zoom: 1;
 }
-.detal .input:before,
-.detal .input:after {
+.seconds:before,
+.seconds:after {
   display: table;
   content: "";
   line-height: 0;
   overflow: hidden;
 }
-.detal .input:after {
+.seconds:after {
   clear: both;
 }
-.detal .input .left,
-.detal .input .right {
+.seconds .child1,
+.seconds .child2,
+.seconds .child3 {
   float: left;
 }
-.detal .input .left {
-  width: 80px;
+.seconds .child1 {
+  width: 480px;
+}
+.seconds .child1 p {
   font-size: 14px;
-  padding-left: 14px;
+  margin-bottom: 25px;
+}
+.seconds .child1 p img {
+  position: relative;
+  padding-right: 10px;
+}
+.seconds .child1 .title {
+  margin-bottom: 35px;
+  font-size: 16px;
+}
+.seconds .child1 .title .zw {
+  font-size: 24px;
+  font-weight: bold;
+}
+.seconds .child1 .company {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.seconds .child2 {
+  width: 430px;
+}
+.seconds .child2 p {
+  color: red;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 38px;
+}
+.seconds .child2 div {
+  font-size: 12px;
+}
+.seconds .child3 a {
+  display: block;
+  width: 230px;
+  margin-top: 19px;
+  height: 48px;
   line-height: 34px;
 }
-.detal .input .right {
-  width: 1100px;
-}
-.detal .input input {
-  width: 600px;
-}
-.detal .input textarea {
-  width: 600px;
-}
-.detal .form-control {
-  display: inline-block;
-}
-.detal .nav {
-  padding-top: 40px;
-  border-bottom: 1px solid #ECECEC;
-  margin-bottom: 40px;
-}
-.detal .nav a {
-  display: inline-block;
-  font-size: 14px;
-  padding-bottom: 16px;
-  color: #000;
-  text-decoration: none;
-  margin-right: 16px;
-}
-.detal .nav a.active {
-  border-bottom: 3px solid #268aff;
-  color: #268aff;
-}
-.detal em {
-  display: inline-block;
+.seconds .child3 .Cdet {
+  border: 1px solid red;
   color: red;
-  line-height: 20px;
-  padding-right: 5px;
 }
-.detal .name a {
-  padding-left: 10px;
+.third {
+  width: 1200px;
+  margin: 0 auto;
 }
-.detal .ts1 {
-  color: rgba(0, 0, 0, 0.5);
+.third .left,
+.third .right {
+  float: left;
 }
-.detal .photos {
-  margin-top: 10px;
-  margin-bottom: 40px;
-  width: 262px;
-  height: 157px;
+.third .left {
+  margin-top: 30px;
+  width: 805px;
+}
+.third .left .title {
   position: relative;
+  font-size: 14px;
+}
+.third .left .title p {
+  padding-bottom: 10px;
+  margin-left: 10px;
+  border-bottom: 1px solid #eeeeee;
+}
+.third .left .title p::before {
+  content: "";
+  position: absolute;
+  background-color: #88B6DD;
+  width: 2px;
+  height: 15px;
+  left: 0;
+  top: 3px;
+}
+.third .left .tag {
+  margin: 30px 0;
+}
+.third .left .tag span {
+  display: inline-block;
+  padding: 7px 14px;
+  border: 1px solid #F6F8FB;
+  margin: 0 10px;
+  color: #999999;
+}
+.third .left .Detail {
+  margin-top: 30px;
+  padding-left: 10px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #999999;
+}
+.third .left .fg {
+  margin: 40px 0 60px  10px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: #F2F6FB;
   cursor: pointer;
 }
-.detal .photos .act,
-.detal .photos .act2 {
-  width: 262px;
-  height: 157px;
-}
-.detal .photos .act2 {
-  position: absolute;
-  top: 0;
-  background: rgba(0, 0, 0, 0.5);
-  width: 262px;
-  height: 157px;
-}
-.detal .photos .act2 img {
+.third .left .fg img {
   position: relative;
-  left: 50%;
-  top: 50%;
-  margin-left: -36px;
-  margin-top: -32px;
+  top: -3px;
+  left: 5px;
 }
-.detal .photos:hover .act2 {
-  display: block!important;
+.third .left .Address {
+  padding-left: 10px;
 }
-.detal .tx {
-  line-height: 28px;
+.third .left .Address h3 {
+  font-size: 14px;
+  color: #000000;
 }
-.detal .tx2 {
+.third .left .Address p {
+  padding: 40px 0;
+  color: #999999;
+  padding-right: 10px;
+}
+.third .left .Address p span {
+  display: inline-block;
+  padding-left: 10px;
+  line-height: 24px;
+}
+.third .left .Detail h3 {
+  font-size: 14px;
+  color: #000000;
+}
+.third .right {
   margin-top: 20px;
-  color: red;
+  width: 330px;
+  margin-left: 20px;
+  padding-left: 44px;
+  border-left: 1px solid #ECECEC;
+  height: 100%;
+  text-align: center;
+  padding-bottom: 200px;
 }
-.detal .btnPull {
-  padding-left: 80px;
+.third .right .title {
+  text-align: left;
+  font-size: 14px;
+  padding-top: 23px;
 }
-.detal .btnPull button {
+.third .right .peson {
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+.third .right .mes1 {
+  font-size: 20px;
+}
+.third .right .mes1 em {
+  font-size: 14px;
+  color: #99ccff;
+  font-style: normal;
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
+}
+.third .right .mes2 {
+  font-size: 14px;
+  color: #eeeeee;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #ECECEC;
+}
+.third .right .mes2 em {
+  font-style: normal;
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
+}
+.third .right .mes2 img {
+  position: relative;
+  top: -2px;
+}
+.third .right .companyPerson {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+.third .right .companyName {
+  text-align: left;
+  font-size: 20px;
+}
+.third .right .tag {
+  text-align: left;
+  margin-top: 30px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.third .right .tag img {
   margin-right: 20px;
-}
-.detal .logo button {
-  width: 177px;
-  margin-right: 10px;
-}
-.map {
-  width: 602px;
-  height: 279px;
 }
