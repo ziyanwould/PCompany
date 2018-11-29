@@ -1,0 +1,38 @@
+.detal.contact .input .form-control {
+  width: 180px;
+}
+.detal.contact .input.qb .qh {
+  width: 60px;
+}
+.contact.detal .input .left {
+  width: 180px;
+}
+.contact.detal .input .right {
+  width: 680px;
+}
+.contact.detal .btnPull {
+  padding-left: 180px;
+}
+.old .right {
+  color: #999999;
+}
+.old input {
+  display: inline-block;
+  margin-right: 10px;
+}
+.con .right .tx {
+  color: #666666 ;
+}
+/**大提示必备样式*/
+.pBalert {
+  width: 1200px;
+  margin: 0 auto;
+  position: fixed;
+  left: 50%;
+  margin-left: -600px;
+  top: 10px;
+  z-index: 10;
+}
+.pBalert strong {
+  font-weight: 700;
+}

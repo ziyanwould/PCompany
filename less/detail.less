@@ -254,3 +254,59 @@
          
       }
   }
+
+  //增加地图后样式
+  .alertMap{
+      display: inline-block;
+      margin-left: 10px;
+  }
+  .zzc{
+      position: relative;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      position: fixed;
+      top: 0;
+      display: none;
+      .close{
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        right: 50px;
+        top: 50px;
+        .sx();
+        background: #FFFFFF;
+        text-align: center;
+        line-height: 30px;
+        border-radius: 30px;
+      
+       }
+      .map{
+          position: absolute;
+          width: 600px;
+          height: 500px;
+          background: #FFFFFF;
+          left: 50%;
+          top: 50%;
+          margin-left: -300px;
+          margin-top: -250px;
+          .box-shadow( 0 0 6px rgba(0, 0, 0, 0.9) );
+          .border-radius();
+
+       
+      }
+  }
+
+  .mes3{
+      text-align: left;
+      img{
+          margin-right: 5px;
+      }
+      span{
+          position: relative;
+          top: 5px;
+          display: inline-block;
+          width: 205px;
+          .text-ellipsis()
+      }
+  }

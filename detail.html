@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>建筑猎聘兼职页面</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/dist/style/detail-a5169bc6f9.css" rel="stylesheet">
+    <link href="/dist/style/detail-df897f5acd.css" rel="stylesheet">
 
     
     
@@ -202,7 +202,7 @@
 
                         <div class="Address">
                             <h3>工作地址</h3>
-                            <p><img src="/dist/images/location.png" alt=""><span>珠江新城珠江东路28号越秀金融大厦5405</span></p>
+                            <p><img src="/dist/images/location.png" alt=""><span>珠江新城珠江东路28号越秀金融大厦5405</span> <a href="javascript:;" class="alertMap">查看地图</a></p> 
                         </div>
 
                         <div class="Detail detail2">
@@ -229,8 +229,8 @@
                        <img src="/dist/images/peron.png" alt="头像" class="peson">
                        <p class="mes1">辛育朗 <em>CEO</em></p>
                        <p class="mes2"><img src="/dist/images/huoyue.png" alt="活跃" class="huoyue"> <em>最近活跃：17小时48分前</em></p>
-                       <img src="/dist/images/logoCom.png" alt="公司" class="companyPerson">
-                       <p class="companyName">广州市某某信息科技有限公司</p>
+                       <p class="mes3"><img src="/dist/images/peron.png" alt="头像" class="peson"><span>广州市某某信息科技有限公司cjbvujsdniodfdfjdfi</span></p>
+                       
                        <p class="tag email"><img src="/dist/images/DEmail.png" alt="邮件">15622102239@qq.com</p>
                        <p class="tag web"><img src="/dist/images/computer.png" alt="网站">http://www.sunyuklong.com/</p>
                        <p class="tag address"><img src="/dist/images/Daddress.png" alt="网站">广州市番禺区某某园区</p>
@@ -247,11 +247,24 @@
          
 
     </div>
+
+    
+
+    <div class="zzc">
+        <div class="map" id="map">
+             
+        </div>
+        <div class="close">
+            X
+        </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+    <script charset="utf-8" src="https://map.qq.com/api/js?v=2.exp&key=OB4BZ-D4W3U-B7VVO-4PJWW-6TKDJ-WPB77"></script>
+    <script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
     <script src="/dist/js/com.js"></script>
     <script>
-            
+        var map,markersArray = []; 
         $(function () {
             var big = $('.use .mes');
             var use = $('.useImg');
@@ -276,7 +289,47 @@
                     _this.find('img').attr('src','/dist/images/Dup.png')
                 }
             })
+
+            /**地图*/
+            $('.alertMap').click(function(){
+                $('.zzc').show()
+            })
+            $('.zzc .close').click(function(){
+                $('.zzc').hide()
+            })
+
+
+                  /** 创建地图*/
+           console.log("new",new qq.maps.LatLng(39.916527, 116.397128))
+             map = new qq.maps.Map(document.getElementById('map'),{
+                center: new qq.maps.LatLng(39.916527, 116.397128),//将经纬度加到center属性上
+                zoom: 12,//缩放   
+                draggable: false,//是否可拖拽
+                scrollwheel: false,//是否可滚动缩放
+                disableDoubleClickZoom: false
+            })
+
+            dd(map,new qq.maps.LatLng(39.916527, 116.397128))
+
         });
+
+
+       
+
+
+        function dd(map,jwds){ //添加标记跳动
+          console.log('jwds',jwds);
+          var marker = new qq.maps.Marker({
+                position:jwds,//标记的经纬度
+                animation: qq.maps.MarkerAnimation.BOUNCE,//标记的动画
+                map: map//标记的地图
+            })
+            markersArray.push(marker);
+             
+        }
+
+      
+ 
     </script>
 </body>
 </html>
