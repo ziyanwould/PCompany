@@ -1,0 +1,109 @@
+@import "old.less";
+/*头部样式*/
+@import "header.less";
+@import "com.less";
+@import "map.less";
+@import "contact.less";
+
+.message{
+    position: fixed;
+    bottom:50px;
+    right:5px;
+    font-size: 12px;
+    padding: 8px 15px;
+    .box-shadow( 0 0 6px rgba(33, 120, 251, 0.6) );
+    .border-radius();
+    .sx();
+}
+.count{
+    width: 100%;
+    border-top: 20px solid #F8F8F8;
+    padding-bottom: 100px;
+  }
+  .detal{
+      width: 1200px;
+      margin: 0 auto;
+  }
+
+  .title{
+    position: relative;
+    font-size: 14px;
+   p{
+      padding-bottom: 10px;
+      margin-left: 10px;
+      border-bottom: 1px solid #eeeeee;
+   }
+   p::before{ 
+      content:"";
+      position: absolute;
+      background-color:#88B6DD;
+      width: 2px;
+      height: 15px;
+      left: 0;
+      top:3px;
+     
+      }
+    
+}
+.fg{
+    width: 1200px;
+    margin: 40px auto;
+}
+.cz{ 
+    .myreset();
+    width: 789px;
+    margin: 0 auto!important;
+   
+    .clearfix();
+    .left,.right{
+        float: left;
+    }
+    .doudou{
+       
+        width: 708px;
+        .clearfix();
+        li{
+            .border-radius(15px);
+            width: 216px;
+            height: 132px;
+            float: left;
+            border: 1px solid #ECECEC;
+            margin: 10px;
+            .number,.price{
+             text-align: center;
+            }
+            .number{
+                font-size: 30px;
+                color: #333333;
+                margin-top: 35px;
+            }
+            .price{
+                margin-top: 5px;
+                font-size: 14px;
+                color: #cccccc;
+            }
+        }
+ 
+        a{  position: relative;
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+            .gou3{
+                position:absolute;
+                right: -1px;
+                bottom: 0px;
+                display: none;
+            }
+
+        }
+        .active{
+            border: 1px solid #33AAEE;
+           a{
+            .gou3{
+             
+                display: block;
+            }
+           }
+        }
+    }
+}
