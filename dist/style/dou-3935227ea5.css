@@ -879,3 +879,14 @@
 .cz .doudou .active a .gou3 {
   display: block;
 }
+.cz.parice {
+  padding-top: 40px;
+}
+.cz.parice .right {
+  color: #ff9600;
+}
+.zz {
+  width: 789px;
+  margin: 40px auto 0 auto;
+  padding-left: 80px;
+}
