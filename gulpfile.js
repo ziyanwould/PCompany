@@ -40,7 +40,7 @@ gulp.task('default',function() {
     browserSync.init({
             server: {
                 baseDir: "./",
-                index  : 'dist/pay.html'  // 指定默认打开的文件
+                index  : 'dist/finish.html'  // 指定默认打开的文件
             }
         });
 
