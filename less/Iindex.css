@@ -1,0 +1,48 @@
+body {
+  background: #F2F5F8;
+  width: 100%;
+}
+.secondBack {
+  width: 100%;
+  overflow: hidden;
+  height: 360px;
+}
+.choose,
+.count {
+  width: 1200px;
+  margin: 0 auto;
+}
+.count {
+  *zoom: 1;
+}
+.count:before,
+.count:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  overflow: hidden;
+}
+.count:after {
+  clear: both;
+}
+.count .Cleft,
+.count .Cright {
+  float: left;
+}
+.count .child {
+  *zoom: 1;
+}
+.count .child:before,
+.count .child:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  overflow: hidden;
+}
+.count .child:after {
+  clear: both;
+}
+.count .child .left,
+.count .child .right {
+  float: left;
+}
