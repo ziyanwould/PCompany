@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>建筑猎聘注册页</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/dist/style/login-c1feaade6e.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+   
+    <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+    <script src="/dist/js/distpicker.data.js"></script>
+      <script src="/dist/js/distpicker.js"></script>
+     
+ 
+
+
+</head>
+<body> 
+<style>
+
+
+body{
+    background: url('/dist/status/images/pBack/reg.png') center center no-repeat;
+    background-size: cover;
+   -webkit-background-size: cover;
+   -o-background-size: cover;
+   background-position: center 0;
+   position: relative;
+}
+</style>
+   
+   
+<header style="width:100%;height: 109px;overflow:hidden;background: #FFFFFF;">
+    <iframe src="/dist/status/commom_hr/header3.html" width="100%" height="100%" marginheight="0" marginwidth="0" frameborder="0" scrolling="no"></iframe>
+</header>
+
+<div class="register">
+      <div class="child"> 
+          <h2>账号注册</h2>
+          <div class="list">
+            <h5 class="iName">企业名称<em>（请与营业执照注册名保持一致）</em></h5>
+            <input type="text" class="form-control">
+      
+          </div>
+
+          <div class="list">
+            <h5 class="iName">企业地址</h5>
+         
+            <form class="form-inline">
+                  <div data-toggle="distpicker">
+                  <div class="form-group">
+                        <label class="sr-only" for="province2">湖北省</label>
+                        <select class="form-control" id="province2" data-province="广东省"><option value="" data-code="">—— 省 ——</option><option value="北京市" data-code="110000">北京市</option><option value="天津市" data-code="120000">天津市</option><option value="河北省" data-code="130000">河北省</option><option value="山西省" data-code="140000">山西省</option><option value="内蒙古自治区" data-code="150000">内蒙古自治区</option><option value="辽宁省" data-code="210000">辽宁省</option><option value="吉林省" data-code="220000">吉林省</option><option value="黑龙江省" data-code="230000">黑龙江省</option><option value="上海市" data-code="310000">上海市</option><option value="江苏省" data-code="320000">江苏省</option><option value="浙江省" data-code="330000">浙江省</option><option value="安徽省" data-code="340000">安徽省</option><option value="福建省" data-code="350000">福建省</option><option value="江西省" data-code="360000">江西省</option><option value="山东省" data-code="370000">山东省</option><option value="河南省" data-code="410000">河南省</option><option value="湖北省" data-code="420000">湖北省</option><option value="湖南省" data-code="430000">湖南省</option><option value="广东省" data-code="440000" selected>广东省</option><option value="广西壮族自治区" data-code="450000">广西壮族自治区</option><option value="海南省" data-code="460000">海南省</option><option value="重庆市" data-code="500000">重庆市</option><option value="四川省" data-code="510000">四川省</option><option value="贵州省" data-code="520000">贵州省</option><option value="云南省" data-code="530000">云南省</option><option value="西藏自治区" data-code="540000">西藏自治区</option><option value="陕西省" data-code="610000">陕西省</option><option value="甘肃省" data-code="620000">甘肃省</option><option value="青海省" data-code="630000">青海省</option><option value="宁夏回族自治区" data-code="640000">宁夏回族自治区</option><option value="新疆维吾尔自治区" data-code="650000">新疆维吾尔自治区</option><option value="台湾省" data-code="710000">台湾省</option><option value="香港特别行政区" data-code="810000">香港特别行政区</option><option value="澳门特别行政区" data-code="820000">澳门特别行政区</option></select>
+                  </div>
+                  -
+                  <div class="form-group">
+                        <label class="sr-only" for="city2">武汉市</label>
+                        <select class="form-control" id="city2" data-city="---- 选择市 ----"><option value="" data-code="">---- 选择市 ----</option><option value="广州市" data-code="440100" selected>广州市</option><option value="韶关市" data-code="440200">韶关市</option><option value="深圳市" data-code="440300">深圳市</option><option value="珠海市" data-code="440400">珠海市</option><option value="汕头市" data-code="440500">汕头市</option><option value="佛山市" data-code="440600">佛山市</option><option value="江门市" data-code="440700">江门市</option><option value="湛江市" data-code="440800">湛江市</option><option value="茂名市" data-code="440900">茂名市</option><option value="肇庆市" data-code="441200">肇庆市</option><option value="惠州市" data-code="441300">惠州市</option><option value="梅州市" data-code="441400">梅州市</option><option value="汕尾市" data-code="441500">汕尾市</option><option value="河源市" data-code="441600">河源市</option><option value="阳江市" data-code="441700">阳江市</option><option value="清远市" data-code="441800">清远市</option><option value="东莞市" data-code="441900">东莞市</option><option value="中山市" data-code="442000">中山市</option><option value="潮州市" data-code="445100">潮州市</option><option value="揭阳市" data-code="445200">揭阳市</option><option value="云浮市" data-code="445300">云浮市</option></select>
+                  </div>
+                  -
+                  <div class="form-group">
+                        <label class="sr-only" for="district2">District</label>
+                        <select class="form-control" id="district2" data-district="---- 选择区 ----"><option value="" data-code="">---- 选择区 ----</option><option value="荔湾区" data-code="440103" selected>荔湾区</option><option value="越秀区" data-code="440104">越秀区</option><option value="海珠区" data-code="440105">海珠区</option><option value="天河区" data-code="440106">天河区</option><option value="白云区" data-code="440111">白云区</option><option value="黄埔区" data-code="440112">黄埔区</option><option value="番禺区" data-code="440113">番禺区</option><option value="花都区" data-code="440114">花都区</option><option value="南沙区" data-code="440115">南沙区</option><option value="从化区" data-code="440117">从化区</option><option value="增城区" data-code="440118">增城区</option></select>
+                        </div>
+            
+                  </div>
+            </form>
+             
+      
+          </div>
+          <div class="list">
+                  <h5 class="iName">详细地址</h5>
+                  <input type="text" class="form-control">
+            
+          </div>
+          <div class="list">
+                  <h5 class="iName">联系人名字</h5>
+                  <input type="text" class="form-control">
+            
+          </div>
+          <div class="list fr">
+                  <h5 class="iName">手机号</h5>
+                <input type="text" class="form-control" style="height:65px;" placeholder="">
+                <span>中国 +86 v</span>
+
+                <input type="button" class="btn hqyzms" value="获取验证码">
+          </div>
+       
+          <div class="list">
+                  <h5 class="iName">短信验证码</h5>
+                <input type="text" class="form-control" placeholder="">
+          
+          </div>
+          <div class="list">
+                  <h5 class="iName">登录密码</h5>
+                <input type="password" class="form-control" placeholder="">
+          
+          </div>
+          <div class="list">
+                  <h5 class="iName">再次输入登录密码</h5>
+                <input type="password" class="form-control" placeholder="">
+          
+          </div>
+
+          <div class="list">
+                <h5 class="iName">上传营业执照</h5>
+               <div class="into1">
+                     <a href="javascript:;" class="button">上传图片</a><em>图片要求以GIF,PNG 或JPG格式，大小限制在3M以内</em>
+               </div>
+               <div class="into2">
+                     <img src="/dist/images/companylogon.png" alt="">
+               </div>
+               <div class="into3">
+                        <em>*</em>确保单位名称与提交审核公司一致；如为复印件、黑白扫描件，需加盖单位公章；<br>
+                        不可使用屏幕截图或翻拍图片提交审核；上传图片不可有与建筑猎聘无关的标注或水印；<br>
+                        不可使用电子版营业执照提交审核；所上传执照照片，信息需清晰完整。<br>
+                        <p>企业营业执照仅用于审核,不会向第三方透露,请放心上传！</p>
+               </div>
+          
+          </div>
+          <div class="reg">
+             <p>点击确定代表您已同意 <a href="javascript:;">《网站服务条款》</a>、 <a href="javascript:;">《网站隐私政策》</a></p>
+             <button type="button" id="Regis" class="btn btn-primary btn-lg btn-block">注册</button>
+          </div>
+          <div class="other">
+           已经账号？<a href="pBack.html">点此登录</a>
+          </div>
+      </div>
+
+      <script>
+      $(function(){
+           
+        if(GetRequest('forget').forget){
+            $('.child h2'). html("重置密码") ;
+            $('.child').find('.list').eq(2).find("input:first").attr('placeholder',"请输入新密码");
+            $('.child').find('.list').eq(3).find("input:first").attr('placeholder',"确认新密码");
+            $('#Regis').html('重置')
+        }
+
+       $('.hqyzms').click(function(){
+             var that  = $(this);
+             var  input1 = $('.child').find('.list').eq(4).find("input");
+             console.log(input1.val())
+         if(isPoneAvailable(input1)) {
+            settime(that); 
+         }else{
+            bigestHint("警告","您的手机号格式不正确",'danger',3000);
+           
+         }
+          
+       })
+
+       $('#Regis').click(function(){
+             var regx =/^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]{6,16}$/;
+            var  input5 = $('.child').find('.list').eq(0).find("input:first");
+            var  input6 = $('.child').find('.list').eq(1).find("input:first");
+            var  input7 = $('.child').find('.list').eq(2).find("input:first");
+            var  input8 = $('.child').find('.list').eq(3).find("input:first");
+
+            var  input1 = $('.child').find('.list').eq(4).find("input:first");
+            var  input2 = $('.child').find('.list').eq(5).find("input:first");
+            var  input3 = $('.child').find('.list').eq(6).find("input:first");
+            var  input4 = $('.child').find('.list').eq(7).find("input:first");
+            var  img    = $('.into2').find('img').attr('src')
+            console.log('img',img)
+            // console.log (input1.val(),input2.val(),input3.val(),input4.val())
+            // alert(regx.test(input3.val()))
+            console.log($('#province2 option:selected').val());
+            if(input5.val()==''){
+                  bigestHint("警告！","企业名称不能为空",'danger',3000);
+            }else if($('#province2 option:selected').val()==''){
+                  bigestHint("警告！","省份没选择",'danger',3000);
+            }else if($('#city2 option:selected').val()==''){
+                  bigestHint("警告！","城市没选择",'danger',3000);
+            }else if($('#district2 option:selected').val()==''){
+                  bigestHint("警告！","城区没选择",'danger',3000);
+            }else if(input7.val()==''){
+                  bigestHint("警告！","详细地址没填",'danger',3000);
+            }else if(input8.val()==''){
+                  bigestHint("警告！","联系人名字没填",'danger',3000);
+            } 
+            else if(!isPoneAvailable(input1)){
+                  bigestHint("警告！","您的手机号格式不正确",'danger',3000);
+            } 
+            else if(input2.val()!=6666){
+                  bigestHint("警告！","短信验证码不正确",'danger',3000);
+            }else if(!regx.test(input3.val())){
+                  bigestHint("警告！","密码应该为6位以上数字与字母混合",'danger',3000);
+            }else if(input4.val()!=input3.val()){
+                  bigestHint("警告！","您两次密码输入不一致",'danger',3000);
+            }else if(img=='/dist/images/companylogon.png'){
+                  bigestHint("警告！","您还没上传营业执照",'danger',3000);
+            }
+            else{
+                  bigestHint("成功！","注册成功，正在跳转......",'success',3000);
+            }
+           
+       })
+
+
+
+      })
+          
+       //组件区
+       function smallHint (sele,place,count,time){//小提示卡
+        sele.tooltip({
+            title    : count,
+            placement: place,
+            delay    : 400
+            });
+            sele.tooltip('show');
+            if(time){
+                setTimeout(function(){
+                sele.tooltip('destroy');
+              },time)
+            }else{
+                setTimeout(function(){
+                sele.tooltip('destroy');
+               },2000)
+            }
+           
+        }
+
+    function bigerHint(sele,place,count,time){//中提示卡
+        sele.popover({
+                placement: place,
+                content  : count
+            })
+            sele.popover('show')//展示
+            
+            if(time){
+                setTimeout(function(){
+                    sele.popover('destroy')//销毁
+              },time)
+            }else{
+                setTimeout(function(){
+                    sele.popover('destroy')//销毁
+               },2000)
+            }
+    }
+
+    function bigestHint(title,count,style,time){//大提示卡
+     //info、danger、warning、success ——给警告框设置情景效果
+      var mes = $('   <div class="alert pBalert alert-'+style+' fade in"><a href="#" class="close" data-dismiss="alert">&times;</a><strong>'+title+'</strong>'+count+'</div>');
+      $("body").prepend(mes);
+      if(time){
+            setTimeout(function(){
+                $(".pBalert").remove();
+              },time)
+            }else{
+                setTimeout(function(){
+                    $(".pBalert").remove();
+            },2800)
+        }
+
+    }
+
+    //手机格式是否正确           
+    function isPoneAvailable($poneInput) {
+        var myreg = /^[1][3,4,5,7,8][0-9]{9}$/;
+        if (!myreg.test($poneInput.val())) {
+            return false;
+        } else {
+            return true;
+        }
+   }
+    
+    //邮箱是否正确
+    function checkEmail(str){
+        var reg = new RegExp(/^([a-zA-Z0-9._-])+@([a-zA-Z0-9_-])+(\.[a-zA-Z0-9_-])+/);
+    　  //console.log(str);
+    　　if(str === ""){ //输入不能为空
+    　　　　//alert("输入不能为空!");
+    　　　　return false;
+    　　}else if(!reg.test(str)){ //正则验证不通过，格式不对
+    　　　　//alert("验证不通过!");
+    　　　　return false;
+    　　}else{
+    　　　　//alert("通过！");
+    　　　　return true;
+    　　}
+    }
+     //对修改手机号改造为修改邮箱
+     function useEmail(self){
+        var parent = $('.jt2');
+        var copy   = parent.clone(true);
+         if(self){//新建
+        copy.removeClass('jt2').addClass('jt3'); 
+        copy.find('h3').html("修改绑定邮箱");
+         //   parent.find('h4,h5').css("visibility","hidden");
+         copy.find('h4').html('修改绑定邮箱须先短信验证');
+         copy.find('h5').html('<em>请使用：</em><span class="thatPho">'+$('.thatPho').html()+' 接收验证码</span>');
+         copy.find('section').eq(0).find('span').html('<em>*</em>新的邮箱');
+         copy.find('section').eq(0).find('input').attr('placeholder',"请输入邮箱");
+         copy.find('section').eq(0).find('input').val(" ");
+         copy.find('section').eq(1).find('input').eq(0).val(" ");
+         copy.find('#wc').data('type','email');
+         copy.find('#wc').attr('id','Ewc');
+         copy.find('#qx').attr('id','Eqx');
+         $('body').prepend(copy)
+        //  console.log(copy)
+        
+       
+         }else{//销毁
+
+          $('.jt3').remove();
+         }
+
+     }
+
+     var countdown = 60;
+     function settime(obj) { //发送验证码倒计时
+     if (countdown == 0) { 
+         obj.attr('disabled',false); 
+         //obj.removeattr("disabled"); 
+         obj.val("获取验证码");
+         countdown = 60;
+         return;
+     } else { 
+         obj.attr('disabled',true);
+         obj.val("重新发送(" + countdown + ")");
+         countdown--; 
+     } 
+ setTimeout(function() { 
+     settime(obj) }
+     ,1000) 
+ }
+
+     //对
+
+
+    
+
+      function GetRequest() {  
+            var url = location.search; //获取url中"?"符后的字串  
+            var theRequest = new Object();  
+            if (url.indexOf("?") != -1) {  
+                  var str = url.substr(1);  
+                  strs = str.split("&");  
+                  for(var i = 0; i < strs.length; i ++) {  
+                  theRequest[strs[i].split("=")[0]]=unescape(strs[i].split("=")[1]);  
+                  }  
+            }  
+            return theRequest;  
+}  
+      
+      </script>
+</div>
+</body>
+</html>
