@@ -12,6 +12,24 @@ body {
   width: 1200px;
   margin: 0 auto;
 }
+.choose a,
+.count a {
+  text-decoration: none;
+}
+.choose {
+  padding: 30px;
+  background: #FFF;
+  margin: 20px auto 10px auto;
+}
+.choose a.active {
+  background: #1493DF  ;
+  color: #FFFFFF!important;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+}
 .count {
   *zoom: 1;
 }
@@ -30,6 +48,7 @@ body {
   float: left;
 }
 .count .child {
+  display: block;
   *zoom: 1;
 }
 .count .child:before,
@@ -45,4 +64,441 @@ body {
 .count .child .left,
 .count .child .right {
   float: left;
+}
+.type,
+.first,
+.second,
+.address {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #EAEAEA;
+  margin-bottom: 20px;
+}
+.address {
+  border-bottom: none;
+  padding-bottom: none;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.first,
+.second {
+  *zoom: 1;
+}
+.first:before,
+.second:before,
+.first:after,
+.second:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  overflow: hidden;
+}
+.first:after,
+.second:after {
+  clear: both;
+}
+.first h5,
+.second h5,
+.first .detail,
+.second .detail,
+.first .switch,
+.second .switch {
+  float: left;
+}
+.first h5,
+.second h5 {
+  width: 70px;
+  margin-right: 35px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.first .detail,
+.second .detail {
+  width: 895px;
+}
+.first .detail a,
+.second .detail a {
+  font-size: 14px;
+  color: #000000;
+  display: inline-block;
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+.first .switch,
+.second .switch {
+  width: 135px;
+  text-align: right;
+  cursor: pointer;
+  color: #0099e5;
+  padding-top: 5px;
+}
+.first .switch span,
+.second .switch span {
+  margin-right: 5px;
+}
+.type,
+.address {
+  *zoom: 1;
+}
+.type:before,
+.address:before,
+.type:after,
+.address:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  overflow: hidden;
+}
+.type:after,
+.address:after {
+  clear: both;
+}
+.type h5,
+.address h5,
+.type .detail,
+.address .detail,
+.type .switch,
+.address .switch {
+  float: left;
+}
+.type h5,
+.address h5 {
+  width: 70px;
+  margin-right: 35px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.type .detail,
+.address .detail {
+  width: 895px;
+}
+.type .detail {
+  margin-top: 7px;
+}
+.type .detail a {
+  font-size: 14px;
+  color: #000000;
+  display: inline-block;
+  padding: 5px 10px;
+  margin-right: 10px;
+}
+.count {
+  /* Reset system css */
+  /* HTML5 display-role reset for older browsers */
+  /* from reset */
+  /* aLink reset */
+}
+.count div,
+.count span,
+.count applet,
+.count object,
+.count iframe,
+.count h1,
+.count h2,
+.count h3,
+.count h4,
+.count h5,
+.count h6,
+.count p,
+.count blockquote,
+.count pre,
+.count a,
+.count abbr,
+.count acronym,
+.count address,
+.count big,
+.count cite,
+.count code,
+.count del,
+.count dfn,
+.count em,
+.count img,
+.count ins,
+.count kbd,
+.count q,
+.count s,
+.count samp,
+.count small,
+.count strike,
+.count strong,
+.count sub,
+.count sup,
+.count tt,
+.count var,
+.count b,
+.count u,
+.count i,
+.count center,
+.count dl,
+.count dt,
+.count dd,
+.count ol,
+.count ul,
+.count li,
+.count fieldset,
+.count form,
+.count label,
+.count legend,
+.count table,
+.count caption,
+.count tbody,
+.count tfoot,
+.count thead,
+.count tr,
+.count th,
+.count td,
+.count article,
+.count aside,
+.count canvas,
+.count details,
+.count embed,
+.count figure,
+.count figcaption,
+.count footer,
+.count header,
+.count hgroup,
+.count menu,
+.count nav,
+.count output,
+.count ruby,
+.count section,
+.count summary,
+.count time,
+.count mark,
+.count audio,
+.count video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+.count article,
+.count aside,
+.count details,
+.count figcaption,
+.count figure,
+.count footer,
+.count header,
+.count hgroup,
+.count menu,
+.count nav,
+.count section {
+  display: block;
+}
+.count ol,
+.count ul {
+  list-style: none;
+}
+.count blockquote,
+.count q {
+  quotes: none;
+}
+.count blockquote:before,
+.count blockquote:after,
+.count q:before,
+.count q:after {
+  content: '';
+  content: none;
+}
+.count table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.count input::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+.count input::-ms-clear {
+  display: none;
+}
+.count input,
+.count select,
+.count label,
+.count button {
+  padding: 0;
+  margin: 0;
+  vertical-align: middle;
+  border: none;
+  background: none;
+  font-size: 12px;
+  font-family: 'Microsoft Yahei';
+}
+.count input[type="text"],
+.count input[type="password"],
+.count textarea {
+  outline-style: none;
+  -webkit-appearance: none;
+}
+.count textarea {
+  resize: none;
+}
+.count input:focus,
+.count button:focus,
+.count textarea:focus,
+.count select:focus {
+  outline: none;
+}
+.count a:link,
+.count a:visited {
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+  color: #333;
+}
+.count a:hover,
+.count a:active {
+  text-decoration: none;
+  -webkit-transition: color 0.1s linear, background-color 0.1s linear;
+  -moz-transition: color 0.1s linear, background-color 0.1s linear;
+  -o-transition: color 0.1s linear, background-color 0.1s linear;
+  -ms-transition: color 0.1s linear, background-color 0.1s linear;
+  transition: color 0.1s linear, background-color 0.1s linear;
+  cursor: pointer;
+}
+.count .Cleft,
+.count .Cright {
+  float: left;
+}
+.count .Cleft {
+  width: 820px;
+  background: #FFF;
+  margin-right: 20px;
+}
+.count .Cright {
+  width: 360px;
+}
+.count .Cright .c1,
+.count .Cright .c2 {
+  background: #FFFFFF;
+}
+.count .Cright .c1 {
+  padding-left: 30px;
+  padding-top: 25px;
+  margin-bottom: 10px;
+}
+.count .Cright .c1 .head {
+  font-size: 16px;
+  color: #000000  ;
+  margin-bottom: 40px;
+}
+.count .Cright .c1 .phone,
+.count .Cright .c1 .email {
+  font-size: 14px;
+  padding-bottom: 30px;
+}
+.count .Cright .c1 .phone img,
+.count .Cright .c1 .email img {
+  margin-right: 10px;
+}
+.count .Cright .c1 .phone {
+  padding-bottom: 20px;
+}
+.count .Cright .c2 {
+  padding-bottom: 20px;
+}
+.count .Cright .c2 .head {
+  padding-top: 24px;
+  padding-left: 30px;
+  color: 000000;
+  font-size: 16px;
+  padding-bottom: 15px;
+}
+.count .Cright .c2 .ewm {
+  width: 333px;
+  height: 196px;
+  margin-left: 14px;
+}
+.count .Cright .c2 .ewm .left,
+.count .Cright .c2 .ewm .right {
+  display: inline-block;
+}
+.count .Cright .c2 .ewm h6 {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.count .Cright .c2 .imgshow {
+  text-align: center;
+}
+.count .Cright .c2 .imgshow .descript {
+  color: #FFF;
+  padding-top: 5px;
+}
+.count .Cright .c2 .img {
+  width: 138px;
+  height: 94px;
+}
+.count .Cright .c2 .img img {
+  width: 77px;
+  height: 77px;
+  margin-left: -15px;
+  margin-top: 8px;
+}
+.Cleft li:hover {
+  box-shadow: 0 0px 20px rgba(0, 127, 255, 0.8);
+}
+.Cleft .child {
+  margin: 0 30px;
+  padding: 30px 0 20px 0;
+  border-bottom: 1px solid #F9F3F5;
+  *zoom: 1;
+}
+.Cleft .child:before,
+.Cleft .child:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  overflow: hidden;
+}
+.Cleft .child:after {
+  clear: both;
+}
+.Cleft .child .left {
+  float: left;
+}
+.Cleft .child .right {
+  float: right;
+  text-align: right;
+}
+.Cleft .child .title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.Cleft .child .tag span {
+  display: inline-block;
+  padding: 7px 10px;
+  border: 1px solid #F2F5F8;
+  margin-right: 10px;
+}
+.Cleft .child .name {
+  font-size: 14px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.Cleft .child .name .tag {
+  display: inline-block;
+  padding: 2px 5px ;
+  text-align: center;
+  line-height: 14px;
+  border: 1px solid #1493DF;
+  color: #1493DF;
+  font-size: 12px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+}
+.Cleft .child .pay {
+  color: red;
+  margin-bottom: 20px;
+}
+.Cleft .child .states {
+  color: rgba(0, 0, 0, 0.7);
 }
