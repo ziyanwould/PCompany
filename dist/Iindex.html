@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>建筑猎聘兼职页面</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/dist/style/Iindex-99988fd60e.css" rel="stylesheet">
+    <link href="/dist/style/Iindex-4911267737.css" rel="stylesheet">
 
     <!--[if lt IE 9]>
     <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
@@ -164,8 +164,9 @@
                             <option value="云浮市" data-code="445300">云浮市</option>
                         </select>
                     </div>
-                    -
-                    <div class="form-group">
+                   
+                    <div class="form-group" style="display:none;">
+                            -
                         <label class="sr-only" for="district2">District</label>
                         <select class="form-control" id="district2" data-district="---- 选择区 ----">
                             <option value="" data-code="">---- 选择区 ----</option>
@@ -310,9 +311,41 @@
     <script src="/dist/js/distpicker.js"></script>
     <script src="/dist/js/com.js"></script>
 
+    <script>
+       $('.detail a').click(function(){
+           var _this = $(this);
+           _this.addClass('active');
+           _this.siblings().removeClass('active');
+          if( _this.html()=='全职'){
+            $('.first').find('h5').html('职位类型：');
+            $('.second').find('h5').html('详细职位：');
+            $('.address').find('h5').html('公司地址：');
+            $('#district2').closest('.form-group').css('display','inline-block')
+          }else{
+            $('.first').find('h5').html('证书类型：');
+            $('.second').find('h5').html('专业：');
+            $('.address').find('h5').html('用证地区：');
+            $('#district2').closest('.form-group').css('display','none')
+           
+          }
+        
+       })
+       $('.switch').click(function(){
+            var _this = $(this);
+            var par = _this.parent();
+            var pd = _this.find('span').html();
+            if(pd=='更多'){
+                _this.find('span').html('收起'); 
+                _this.find('img').attr('src','/dist/images/Ishou.png');
+                par.find('.detail').addClass('active');
+            }else{
+                _this.find('span').html('更多'); 
+                _this.find('img').attr('src','/dist/images/Izhankai.png');
+                par.find('.detail').removeClass('active');
+            }
+       })
 
-
-
+    </script>
 </body>
 
 </html>

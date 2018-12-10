@@ -30,6 +30,16 @@ body {
   -o-border-radius: 3px;
   border-radius: 3px;
 }
+.choose a:hover {
+  background: #1493DF  ;
+  color: #FFFFFF!important;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  transition: all 0.3s ease-in-out;
+}
 .count {
   *zoom: 1;
 }
@@ -114,6 +124,15 @@ body {
 .first .detail,
 .second .detail {
   width: 895px;
+  max-height: 30px;
+  overflow: hidden;
+  transition: max-height 1s;
+  -moz-transition: max-height 1s;
+  /* Firefox 4 */
+  -webkit-transition: max-height 1s;
+  /* Safari 和 Chrome */
+  -o-transition: max-height 1s;
+  /* Opera */
 }
 .first .detail a,
 .second .detail a {
@@ -122,6 +141,19 @@ body {
   display: inline-block;
   padding: 5px 10px;
   margin-right: 10px;
+  margin-bottom: 5px;
+}
+.first .detail.active,
+.second .detail.active {
+  max-height: 200px;
+  overflow: hidden;
+  transition: max-height 1s;
+  -moz-transition: max-height 1s;
+  /* Firefox 4 */
+  -webkit-transition: max-height 1s;
+  /* Safari 和 Chrome */
+  -o-transition: max-height 1s;
+  /* Opera */
 }
 .first .switch,
 .second .switch {
@@ -501,4 +533,7 @@ body {
 }
 .Cleft .child .states {
   color: rgba(0, 0, 0, 0.7);
+}
+.form-inline .form-control {
+  border: 1px solid #ECECEC;
 }
